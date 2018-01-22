@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Edwardbookie/config-repo
+          default-label: master
+
+eureka:
+  client:
+    service-url:
+     defaultZone: ${eureka.client.service-url.defaultZone: http://hupeng:123456@localhost:8000/eureka/} #eureka.client.service-url.defaultZone: 针对于配置中心跟注册中心不在统一个服务器上，可将一个域名传进来即可以传参数进来

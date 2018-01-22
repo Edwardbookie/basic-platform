@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basic-config-server" />
+        <module name="basic-gateway-server" />
+        <module name="basic-registry-center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic-config-server" target="1.8" />
+      <module name="basic-gateway-server" target="1.8" />
+      <module name="basic-platform" target="1.8" />
+      <module name="basic-registry-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

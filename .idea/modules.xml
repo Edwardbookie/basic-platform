@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-config-server/basic-config-server.iml" filepath="$PROJECT_DIR$/basic-config-server/basic-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-gateway-server/basic-gateway-server.iml" filepath="$PROJECT_DIR$/basic-gateway-server/basic-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-platform.iml" filepath="$PROJECT_DIR$/basic-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-registry-center/basic-registry-center.iml" filepath="$PROJECT_DIR$/basic-registry-center/basic-registry-center.iml" />
+    </modules>
+  </component>
+</project>
